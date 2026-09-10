@@ -24,8 +24,9 @@ public class Stack {
 
     //Pop Method;
     public void pop(){
-        if(top == 0)
+        if(top == 0) {
             System.out.println("Error Message : Stack UnderFlow...");
+        }
         else {
             System.out.println(stack[top - 1] + " is pop out of stack");
             stack[--top] = 0;
